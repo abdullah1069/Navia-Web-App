@@ -1,0 +1,217 @@
+
+
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px 0px 10px;
+    margin: 20px 0px 0px 0px;
+  }
+  
+  .search-input {
+    padding: 8px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 12px 0 0 12px;
+    outline: none;
+  }
+  
+  .search-button {
+    padding: 8px;
+    background-color: #367ed1;
+    color: #fff;
+    border: 1px solid #367ed1;
+    border-radius: 0 12px 12px 0;
+    cursor: pointer;
+    height: 60px;
+    width: 10%;
+  }
+  
+  .suggestions {
+    position: absolute;
+    width: 80%; /* Adjust the width as needed */
+    max-height: 190px; /* Set a max height for the suggestions box */
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 0 0 4px 4px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: 5%;
+  }
+  
+  .suggestion-item {
+    padding: 8px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .suggestion-item:last-child {
+    border-bottom: none; /* Remove border-bottom from the last suggestion */
+  }
+
+  .btn_upload{
+    width: 150px;
+    text-align: center;
+    margin: 8px;
+    background-color: #f0f0f0;
+    font-family: cursive;
+    cursor: pointer;
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    box-shadow: 0 0 2px rgba(26, 67, 191, 0.7), /* Glow effect */
+                0 0 5px rgba(26, 67, 191, 0.5), /* Increase blur radius for more glow */
+                0 0 5px rgba(26, 67, 191, 0.8); /* Adjust color and opacity as needed */
+    
+  }
+
+  .btn_img_test{
+    background-color: #367ed1 ;
+    border: 0px solid #367ed1;
+    font-family: "Open Sans";
+    font-size: larger;
+    border-radius: 20px;
+  }
+
+  .btn_img_test:hover{
+    background-color: #1a43bf;
+    color: white;
+  }
+
+
+  .image_container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+  }
+  .show_img{
+    width: 300px; 
+    border: 1px solid lightblue;
+    border-radius: 10px;
+  }
+
+.nutri_container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0px 0px 20px 0px;
+  
+}
+    .nutri_data{
+      border: 4px solid yellow;
+      width: 40%;
+      height: auto;
+      border-radius: 10px;
+      /* background-color: #1a43bf; */
+      border: 2px solid transparent;
+      box-shadow: 0 0 5px rgba(26, 67, 191, 0.7), /* Glow effect */
+                  0 0 10px rgba(26, 67, 191, 0.5), /* Increase blur radius for more glow */
+                  0 0 10px rgba(26, 67, 191, 0.8); /* Adjust color and opacity as needed */
+    }
+
+    .nutri_information{
+      padding-left: 20px;
+    }
+    .nutri_information p{
+     font-family: roboto;
+    }
+              .weight-container {
+                display: flex;
+                justify-content: center;
+                padding: 10px 10px 0px 0px;
+                margin: 20px 0px;
+              }
+              
+              .weight-input {
+                padding: 8px;
+                width: 70%;
+                height: 22px;
+                border: 1px solid #ccc;
+                border-radius: 15px 0 0 15px;
+                outline: none;
+              }
+              
+              .weight-button {
+                padding: 8px;
+                background-color: #367ed1;
+                color: #fff;
+                border: 1px solid #367ed1;
+                border-radius: 0 15px 15px 0;
+                cursor: pointer;
+                height: 40px;
+                width: 20%;
+              }
+.burn_time {
+width: 40%;
+height: auto;
+border: 3px solid black;
+border-radius: 10px;
+/* background-color: #1a43bf; */
+border: 2px solid transparent;
+box-shadow: 0 0 5px rgba(26, 67, 191, 0.7), /* Glow effect */
+            0 0 10px rgba(26, 67, 191, 0.5), /* Increase blur radius for more glow */
+            0 0 10px rgba(26, 67, 191, 0.8); /* Adjust color and opacity as needed */
+}
+.burn-container {
+display: flex;
+justify-content: center;
+padding: 10px 10px 0px 0px;              
+}
+.burn_info{
+  padding-left: 20px;
+}
+
+.burn_info p{
+  font-family: roboto;
+}
+
+
+.burn_time p{
+  padding: 15px;
+}
+
+.food_info{
+  font-family: roboto;
+  padding: 10px 5px;
+  color: black;
+}
+
+.btn_flex{
+  display: flex;
+  flex-direction: column;
+}
+
+.btn_flex input{
+  padding: 15px 0px;
+}
+
+.btn_flex button{
+  padding: 15px 0px;
+}
+
+.food_freshness{
+  position: relative;
+  left: 40px;
+  width: 85%;
+  height: 100px;
+  margin: 20px;
+  padding: 15px 57px 0px 15px;
+  border-radius: 10px;
+  background-color: #1a43bfe8;
+}
+
+.food_freshness p{
+  font-family: cursive;
+  font-size: larger;
+  color: white;
+}
+hr{
+  width: 60%;
+  padding-left:0;
+  position: relative;
+  right: 90px;
+}

@@ -1,0 +1,42 @@
+.home_container {
+  display: flex;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.home_text {
+  position: absolute;
+  left: 5%; /* Adjust the value as needed */
+  z-index: 1; /* Ensures text is above image */
+  top: 150px;
+  width: 40%;
+  /* border: 1px solid black; */
+}
+
+.home_img {
+  max-width: 100%; /* Adjust the size as needed */
+  height: auto; /* Maintain aspect ratio */
+  /* filter: brightness(80%); Adjust brightness */
+  transform: scaleX(-1);
+}
+
+.name{
+  font-size: 8ch;
+  font-family: cursive;
+  margin: 0px;
+  color: black;
+}
+
+.summar{
+  font-size: 3.2ch;
+  font-family: roboto;
+  color: black;
+}
+
+.Visit_box{
+  display: flex;
+  height: 300px;
+  margin: 0px 0px 10px 0px;
+  align-items: center;
+  justify-content: space-around;
+}

@@ -1,0 +1,45 @@
+.day_box {
+  width: 300px;
+  margin: 30px 10px 30px 10px;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #3658be;
+  border: 2px solid transparent;
+  transition: height 0.2s ease;
+  box-shadow: 0 0 10px rgba(26, 67, 191, 0.7),
+              0 0 10px rgba(26, 67, 191, 0.5),
+              0 0 20px rgba(26, 67, 191, 0.8);
+}
+  
+.day_info {
+  opacity: 0;
+  visibility: hidden;
+  height: 0;
+  overflow: hidden;
+}
+
+
+.day_info.visible {
+  opacity: 1;
+  visibility: visible;
+  height: auto; /* Set height to auto to accommodate content */
+}
+
+.p{
+    color: white;
+    padding-bottom: 4px;
+    font-family: roboto;
+}
+
+.mushead{
+    color: white;
+    padding-bottom: 2px;
+    font-family: cursive;
+}
+
+  .dayhead{
+    color: white;
+    padding-bottom: 2px;
+    font-family: cursive;
+  }

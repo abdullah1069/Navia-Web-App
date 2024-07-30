@@ -1,0 +1,50 @@
+.calorie-calculator {
+    width: 500px;
+    margin: 70px auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .header {
+    text-align: center;
+  }
+  
+  .form {
+    margin-top: 20px;
+  }
+  
+  .form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form input {
+    width: 90%;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .form select {
+    width: 92%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin: 2px;
+  }
+  
+  .form button {
+    padding: 10px;
+    border: none;
+    margin: 20px 0px;
+    background-color: #04395e;
+    color: white;
+    font-weight: 100;
+  }
+  
+  .results p{
+    color: black;
+  }
