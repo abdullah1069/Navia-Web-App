@@ -1,0 +1,52 @@
+
+.tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  width: 20%;
+  background-color: #286dbd;
+  /* background-color: #1A43BF; */
+  /* border: 1px solid rgba(2, 2, 2, 0.329); */
+  border-radius: 100%;
+
+}
+.link{
+    text-decoration: none; /* Remove underline */
+    color: black; /* Change link text color to black or your desired color */
+}
+
+.link h1{
+  font-size: x-large;
+  font-family: cursive;
+  margin: 0px;
+}
+
+.tab p{
+  width: 80%;
+  margin-left: 0;
+  text-align: center;
+  /* border: 1px solid black; */
+  color: black;
+  font-family: roboto;
+}
+
+.tab:hover{
+  border-radius: 10%;
+  background-color: #1a43bf;
+  border: 2px solid transparent;
+  transition: 0.2s ease;
+  box-shadow: 0 0 10px rgba(26, 67, 191, 0.7), /* Glow effect */
+              0 0 20px rgba(26, 67, 191, 0.5), /* Increase blur radius for more glow */
+              0 0 30px rgba(26, 67, 191, 0.8); /* Adjust color and opacity as needed */
+
+}
+
+.tab:hover .tabtxt{
+  color: white;
+}
+
+.tab:hover .link h1{
+  color: white;
+}
